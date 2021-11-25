@@ -11,3 +11,14 @@
     font-style: normal;
     src: url("./../assets/fonts/Heebo-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "LondrinaSolid";
+    font-weight: 400;
+    font-style: normal;
+    src: url("/assets/fonts/LondrinaSolid-Regular.ttf") format("truetype");
+}
+
+.test {
+    font-family: 'LondrinaSolid' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
