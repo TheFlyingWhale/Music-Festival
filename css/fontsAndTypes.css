@@ -6,12 +6,12 @@
     font-family: 'JosefinSans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.text-base {
+.text-body {
     font-size: 18.00px;
 }
 
 @media only screen and (max-width: 769px) {
-    .text-base {
+    .text-body {
         font-size: 16.00px;
     }
 }
