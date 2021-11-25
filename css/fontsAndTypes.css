@@ -1,10 +1,41 @@
+/*
+
+    In this file you'll find:
+    - Font Families
+    - Font Weights
+    - Font Sizes
+    - Font imports
+
+*/
+
+/* ---> Font Families */
+.text-primary {
+    font-family: 'JosefinSans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .text-secondary {
     font-family: 'LondrinaSolid' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.text-primary {
-    font-family: 'JosefinSans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* ---> Font Weights */
+
+.text-normal {
+    font-weight: 400;
 }
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-semiBold {
+    font-weight: 600;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+/* ---> Font Sizes */
 
 .text-body {
     font-size: 18.00px;
@@ -56,23 +87,7 @@
     }
 }
 
-.text-normal {
-    font-weight: 400;
-}
-
-.text-medium {
-    font-weight: 500;
-}
-
-.text-semiBold {
-    font-weight: 600;
-}
-
-.text-bold {
-    font-weight: 700;
-}
-
-/* Importing fonts */
+/* ---> Font Imports */
 
 @font-face {
     font-family: "LondrinaSolid";
