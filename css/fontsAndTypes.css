@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Heebo";
+    font-weight: 300;
+    font-style: normal;
+    src: url("./../assets/fonts/Heebo-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./../assets/fonts/Heebo-Regular.ttf") format("truetype");
+}
