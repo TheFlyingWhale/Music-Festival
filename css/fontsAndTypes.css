@@ -33,6 +33,10 @@
     src: url("/assets/fonts/JosefinSans-Bold.ttf") format("truetype");
 }
 
+.text-secondary {
+    font-family: 'LondrinaSolid' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .text-primary {
     font-family: 'JosefinSans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
