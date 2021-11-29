@@ -14,9 +14,9 @@ main {
 header {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
     width: 100%;
-    padding: 25px;
 } 
 
 footer {
@@ -30,4 +30,24 @@ footer {
 .main-wrapper {
     width: 100%;
     max-width: 900px;
+
+}
+
+.imageHero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image:url('https://images.unsplash.com/photo-1538330627166-33d1908c210d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    height: 455px;
+    padding: 50px 0px;
+
+}
+
+.imageHero__contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-dropshadow {
+    text-shadow: 0px 4px 10px rgba(34, 34, 34, 0.4); 
 }
