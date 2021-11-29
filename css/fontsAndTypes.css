@@ -8,6 +8,11 @@
 
 */
 
+/* Safe set. In case we forget to style something */
+* {
+    font-family: 'JosefinSans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /* ---> Font Families */
 .text-primary {
     font-family: 'JosefinSans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
