@@ -2,8 +2,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    gap: 50px;
 }
 
 main {
@@ -12,7 +10,6 @@ main {
 
     display: flex;
     flex-direction: column;
-    gap: 150px;
 }
 
 header {
@@ -67,10 +64,6 @@ nav {
     height: 40px;
 }
 
-.nav__links {
-    display: flex;
-    gap: 25px;
-}
 
 .nav__links > a {
     text-decoration: none;
@@ -79,4 +72,58 @@ nav {
 .nav__links > a:hover {
     text-decoration: none;
     color: #F49536;
+}
+
+.gap-10 {
+    display: flex;
+    gap: 10px;
+}
+
+.gap-10-v {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gap-25 {
+    display: flex;
+    gap: 25px;
+}
+.gap-25-v {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.gap-50 {
+    display: flex;
+    gap: 50px;
+}
+
+.gap-50-v {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.gap-100 {
+    display: flex;
+    gap: 100px;
+}
+
+.gap-100-v {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.gap-150 {
+    display: flex;
+    gap: 150px;
+}
+
+.gap-150-v {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
 }
