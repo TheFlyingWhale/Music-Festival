@@ -1,0 +1,32 @@
+
+.CTA {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.text-hero-center {
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    background-color: #611400;
+    padding: 0px 25px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FAFAFA;
+    color: #611400;
+    border: 3px solid #611400;
+    transition-duration: 0.4s;
+}
+
+button:active {
+    background-color: #611400 rgba(97, 20, 0, 0.25);
+    color: #611400;
+    border: 3px solid #611400;
+}
