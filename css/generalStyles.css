@@ -16,7 +16,6 @@ header {
     justify-content: center;
 
     width: 100%;
-    padding: 25px;
 } 
 
 footer {
@@ -30,4 +29,27 @@ footer {
 .main-wrapper {
     width: 100%;
     max-width: 900px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 40px;
+}
+
+.nav__links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav__links > a {
+    text-decoration: none;
+}
+
+.nav__links > a:hover {
+    text-decoration: none;
+    color: #F49536;
 }
