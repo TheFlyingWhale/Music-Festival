@@ -6,7 +6,10 @@
 }
 
 .text-hero-center {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 button {
