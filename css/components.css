@@ -104,3 +104,11 @@ button:active {
     flex-direction: column;
     gap: 50px;
 }
+
+/* Text Component */
+.textComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
