@@ -26,7 +26,7 @@ button:hover {
 }
 
 button:active {
-    background-color: #611400 rgba(97, 20, 0, 0.25);
+    background-color: rgba(97, 20, 0, 0.25);
     color: #611400;
     border: 3px solid #611400;
 }
