@@ -64,3 +64,11 @@ button:active {
     display: flex;
     justify-content: space-between;
 }
+
+/* Text Component */
+.textComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
