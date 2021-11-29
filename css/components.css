@@ -105,4 +105,89 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
+}
+
+.textComponent__body {
+    line-height: 150%;
+    max-width: 500px;
+}
+
+.carousel__figureContainer {
+    width: 900px;
+    height: 465px;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.carousel__figureContainer__figure {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel__figureContainer__interactionContainer {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.carousel__figureContainer__interactionPanel {
+    padding: 5px 5px;
+    background-color: rgba(34, 34, 34, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.carousel__figureContainer__interactionContainer__dot-state-inactive{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+
+    background-color: rgba(250,250,250, 0.5);
+}
+
+.carousel__figureContainer__interactionContainer__dot-state-active{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+
+    background-color: rgba(250,250,250, 1);
+}
+
+.carousel__figureContainer__interactionContainer__dot-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+    background-color: rgba(250, 250, 250, 0.25);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__figureContainer__interactionContainer__dot-button:hover{
+    cursor: pointer;
+    background-color: rgba(250, 250, 250, 0.75);
+    color: #222222;
 }
