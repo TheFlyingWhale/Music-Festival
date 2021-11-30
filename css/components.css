@@ -12,6 +12,7 @@
 
 button {
     height: 40px;
+    width: fit-content;
     background-color: #611400;
     padding: 0px 25px;
     border: 3px solid #611400;
@@ -87,6 +88,34 @@ button:active {
     width: 266px;
     height: 108px;
     padding: 25px;
+}
+
+.horizontal-img-card {
+    width: 900px;
+    height: 555px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.image-boxLarge {
+    width: 450px;
+    background-position: center;
+}
+
+.image-boxLarge > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.text-boxLarge {
+    
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 50px;
 }
 
 .cardContainer__row {
