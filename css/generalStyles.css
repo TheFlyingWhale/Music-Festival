@@ -80,6 +80,16 @@ nav {
     color: #F49536;
 }
 
+.footer-textbox > a {
+    text-decoration: none;
+}
+
+.footer-textbox > a:hover > p {
+    text-decoration: none;
+    color: #F49536;
+}
+
+
 .gap-10 {
     display: flex;
     gap: 10px;
