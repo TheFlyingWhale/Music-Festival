@@ -211,3 +211,26 @@ button:active {
 .artists {
     width: 100%;
 }
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
