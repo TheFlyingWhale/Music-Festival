@@ -298,10 +298,6 @@ button:active {
     color: #F49536;
 }
 
-form {
-    
-}
-
 .textForm {
     background-color: white;
     border-radius: 10px;
@@ -350,8 +346,4 @@ form {
     display: flex;
     gap: 10px;
     align-items: center;
-}
-
-.participants {
-    display: flex;
 }
