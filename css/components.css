@@ -37,6 +37,11 @@ button:active {
     color: #611400;
     border: 3px solid #611400;
 }
+
+.buttonContainer {
+    display: flex;
+    width: fit-content;
+}
   
 .imageHero {
     display: flex;
