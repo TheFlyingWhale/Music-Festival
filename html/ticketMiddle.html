@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nor Ways</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/fontsAndTypes.css">
+    <link rel="stylesheet" href="/css/colours.css">
+    <link rel="stylesheet" href="/css/generalStyles.css">
+    <link rel="stylesheet" href="/css/components.css">
+</head>
+<body class="gap-50">
+
+    <header class="color-primary-bg">
+        <div class="main-wrapper">
+            <nav>
+                <div class="nav__logo">
+                    <a href="/index.html">
+                        <img src="/assets/figures/logo.svg" alt="Nor Ways">
+                    </a>
+                </div>
+                <div class="nav__links gap-25">
+                    <a href="/html/artists.html" class="text-body text-primary color-negative text-normal">Artister</a>
+                    <a href="/html/program.html" class="text-body text-primary color-negative text-normal">Program</a>
+                    <a href="/html/practicalInfo.html" class="text-body text-primary color-negative text-normal">Praktisk Info</a>
+                    <a href="/html/about.html" class="text-body text-primary color-negative text-normal">Om Oss</a>
+                    <a href="/html/ticketStart.html" class="text-body text-primary color-negative text-normal">Billett</a>
+                    <a href="/html/voluntaryStart.html" class="text-body text-primary color-negative text-normal">Frivillig</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="gap-150">
+        <div class="text-hero-left gap-10">
+            <p class="text-secondary text-heroBig color-warning">Billett</p>
+            <p class="text-primary text-title color-primary text-semiBold">Finn de riktige billettene for deg</p>
+            <p class="textComponent__body text-primary text-body color-primary text-normal">Bli med for å høre melodier, smake smaker og oppleve kultur fra hele verden.</p>
+        </div>
+
+        <div class="gap-25-v">
+            <div class="textComponent gap-10">
+                <p class="text-secondary text-title color-secondary">Velg by</p>
+                <p class="text-primary text-subTitle color-primary text-semiBold">Hvor skal du?</p>
+                <p class="textComponent__body text-primary text-body color-primary text-normal">Bli med for å høre melodier, smake smaker og oppleve kultur fra hele verden.</p>
+            </div>
+            <div class="buttonContainer gap-25">
+                <button class="color-negative text-body text-bold">Oslo</button>
+                <button class="color-negative text-body text-bold">Bergen</button>
+                <button class="color-negative text-body text-bold">Trondheim</button>
+            </div>
+        </div>
+
+        <div class="gap-25-v">
+            <div class="textComponent gap-10">
+                <p class="text-secondary text-title color-secondary">Deltagere</p>
+                <p class="text-primary text-subTitle color-primary text-semiBold">Hvem kommer?</p>
+                <p class="textComponent__body text-primary text-body color-primary text-normal">Du kan bestille max 2 voksenbilletter med opp til 5 barnebilletter. Eller så kan du bestille 2 seniorbilletter</p>
+            </div>
+            <div class="buttonContainer gap-25">
+                <button class="color-negative text-body text-bold">Legg til person</button>
+            </div>
+        </div>
+
+        <div class="gap-25-v">
+            <div class="textComponent gap-10">
+                <p class="text-secondary text-title color-secondary">Bestillings Detaljer</p>
+                <p class="text-primary text-subTitle color-primary text-semiBold">Hvem er du?</p>
+            </div>
+
+            <form class="cardBackground box-shadow" action="">
+                <div class="inputRow">
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="firstName">Fornavn</label>
+                        <input class="text-body" name="firstName" type="text">
+                    </div>
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="surName">Etternavn</label>
+                        <input class="text-body" name="surName" type="text">
+                    </div>
+                </div>
+                <div class="inputRow">
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="phoneNumber">Mobilnummer</label>
+                        <input class="text-body" name="phoneNumber" type="text">
+                    </div>
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="address">Adresse</label>
+                        <input class="text-body" name="address" type="text">
+                    </div>
+                </div>
+                <div class="inputRow">
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="postLocation">Poststed</label>
+                        <input class="text-body" name="postLocation" type="text">
+                    </div>
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="postNumber">Postnummer</label>
+                        <input class="text-body" name="postNumber" type="text">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="gap-25-v">
+            <div class="textComponent gap-10">
+                <p class="text-secondary text-title color-secondary">Bruker Detaljer</p>
+                <p class="text-primary text-subTitle color-primary text-semiBold">For enkelt tilgang!</p>
+                <p class="text-primary text-body color-primary">Du vil få en mail hvor du må godkjenne bruker og bestilling</p>
+            </div>
+
+            <form class="cardBackground box-shadow" action="">
+                <div class="inputRow">
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="mail">Mail</label>
+                        <input class="text-body" name="mail" type="text">
+                    </div>
+                </div>
+                <div class="inputRow">
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="password">Passord</label>
+                        <input class="text-body" name="password" type="text">
+                    </div>
+                    <div class="inputContainer">
+                        <label class="text-body color-primary" for="postLocation">Gjenta Passord</label>
+                        <input class="text-body" name="postLocation" type="text">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <div class="buttonContainer fullWidth">
+                <button class="text-primary text-body text-bold color-white">Fullfør bestilling</button>
+            </div>
+            <p id="feedback"></p>
+        </div>
+    </main>
+
+    <footer>
+        im footer
+    </footer>
+</body>
+</html>

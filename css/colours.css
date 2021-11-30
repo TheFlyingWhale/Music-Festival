@@ -1,3 +1,8 @@
+:root{
+    --color-primary: #611400;
+    --color-negative: #FAFAFA;
+}
+
 .color-primary {
     color: #611400;
 }
