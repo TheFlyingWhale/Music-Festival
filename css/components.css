@@ -121,7 +121,11 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+}
+
+.textComponent-horizontalCenter {
+    display: flex;
+    justify-content: center;
 }
 
 .textComponent__body {
@@ -230,4 +234,33 @@ button:active {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.imageContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imageContainer__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMediaContainer__platform {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.socialMediaContainer__platform:hover > p {
+    color: #F49536;
 }
