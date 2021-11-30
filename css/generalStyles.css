@@ -127,3 +127,9 @@ nav {
     flex-direction: column;
     gap: 150px;
 }
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
