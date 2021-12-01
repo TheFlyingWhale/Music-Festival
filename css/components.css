@@ -372,3 +372,8 @@ button:active {
     width: 100px;
     height: 106.25px;
 }
+
+.login__buttonContainer {
+    display: flex;
+    justify-content: center;
+}
