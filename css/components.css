@@ -163,7 +163,7 @@ button:active {
 
 .textComponent-horizontalCenter {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .textComponent__body {
