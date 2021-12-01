@@ -69,6 +69,11 @@ button:active {
     justify-content: flex-end;
 }
 
+.imageHero-practical {
+    background-image: url('/assets/figures/header2.jpeg');
+    background-size: cover;
+}
+
 .partners {
     width: 100%;
     
