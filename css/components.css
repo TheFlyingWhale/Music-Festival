@@ -352,3 +352,23 @@ button:active {
     gap: 10px;
     align-items: center;
 }
+
+.validTicket__Container {
+    padding: 25px;
+    width: fit-content;
+}
+
+.validTicket__row {
+    display: flex;
+    justify-content: center;
+}
+
+.validTicket__infoElement {
+    width: 100%;
+    max-width: 200px;
+}
+
+.validTicket__qrCode {
+    width: 100px;
+    height: 106.25px;
+}
