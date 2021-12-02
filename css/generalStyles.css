@@ -163,3 +163,28 @@ nav {
 .fullWidth {
     width: 100%;
 }
+
+.btn-primary {
+    height: 40px;
+    width: fit-content;
+    background-color: #611400;
+    padding: 0px 25px;
+    border: 3px solid #611400;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.btn-primary:hover {
+    background-color: #FAFAFA;
+    color: #611400;
+    border: 3px solid #611400;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-primary:active {
+    background-color: rgba(97, 20, 0, 0.25);
+    color: #611400;
+    border: 3px solid #611400;
+    transition-duration: 0.4s;
+}
