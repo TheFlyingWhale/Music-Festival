@@ -288,6 +288,76 @@
     color: #F49536;
 }
 
+.programcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.locationcontainer{
+    width: 193px;
+}
+
+.locationcontainer__locationtitle {
+    height: fit-content;
+    width: 163px;
+    padding: 10px ;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+
+.tøyenparken{
+    background-color: #f4290d;
+    border: 3px solid #f4290d;
+}
+.youngstorget{
+    background-color: #f49536;
+    border: 3px solid #f49536;
+}
+.bergen{
+    background-color: #12aae7;
+    border: 3px solid #12aae7;
+}
+.trondheim{
+    background-color: #18bb25;
+    border: 3px solid #18bb25;
+}
+
+.daycontainer{
+    position:relative;
+    left: 30px;
+}
+
+.daycontainer__date {
+    position: absolute;
+    transform: rotate(270deg);
+    transform-origin: bottom left;
+    bottom:0px;
+}
+
+.timecontainer{
+    width: 163px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff; 
+}
+
+.timecontainer__top{
+    padding: 12.5px 25px 25px;
+}
+
+.timecontainer__mid{
+    padding:  25px;
+}
+
+.timecontainer__bot{
+    padding: 25px 25px 12.5px;
+}
+
 .textForm {
     background-color: white;
     border-radius: 10px;
