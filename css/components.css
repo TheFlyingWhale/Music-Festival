@@ -234,6 +234,7 @@
     align-items: center;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 25px 0px;
 }
 
 .footer-textbox {
