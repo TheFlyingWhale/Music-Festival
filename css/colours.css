@@ -1,3 +1,16 @@
+:root{
+    --color-primary: #611400;
+    --color-secondary: #B72E0A;
+    --color-muted: #CDCDCD;
+    --color-safe: #12AAE7;
+    --color-success: #18BB25;
+    --color-danger: #F4290D;
+    --color-warning: #F49536;
+    --color-default: #222222;
+    --color-negative: #FAFAFA;
+    --color-white: #ffffff;
+}
+
 .color-primary {
     color: #611400;
 }

@@ -2,6 +2,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: var(--color-negative);
 }
 
 main {
@@ -153,3 +154,181 @@ nav {
 .align-center {
     align-items: center;
 }
+
+.cardBackground {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.btn-primary {
+    height: 40px;
+    width: fit-content;
+    background-color: #611400;
+    padding: 0px 25px;
+    border: 3px solid #611400;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #FAFAFA;
+    color: #611400;
+    border: 3px solid #611400;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-primary:active {
+    background-color: rgba(97, 20, 0, 0.25);
+    color: #611400;
+    border: 3px solid #611400;
+    transition-duration: 0.4s;
+}
+
+.btn-secondary {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-secondary);
+    padding: 0px 25px;
+    border: 3px solid var(--color-secondary);
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #FAFAFA;
+    color: var(--color-secondary);
+    border: 3px solid var(--color-secondary);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-secondary:active {
+    background-color: rgba(183, 46, 10, 0.25);
+    color: var(--color-secondary);
+    border: 3px solid var(--color-secondary);
+    transition-duration: 0.4s;
+}
+
+.btn-muted {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-muted);
+    padding: 0px 25px;
+    border: 3px solid var(--color-muted);
+    border-radius: 5px;
+}
+
+.btn-muted:hover {
+    background-color: #FAFAFA;
+    color: var(--color-muted);
+    border: 3px solid var(--color-muted);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-muted:active {
+    background-color: rgba(196, 196, 196, 0.25);
+    color: var(--color-muted);
+    border: 3px solid var(--color-muted);
+    transition-duration: 0.4s;
+}
+
+.btn-success {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-success);
+    padding: 0px 25px;
+    border: 3px solid var(--color-success);
+    border-radius: 5px;
+}
+
+.btn-success:hover {
+    background-color: #FAFAFA;
+    color: var(--color-success);
+    border: 3px solid var(--color-success);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-success:active {
+    background-color: rgba(24, 187, 37, 0.25);
+    color: var(--color-success);
+    border: 3px solid var(--color-success);
+    transition-duration: 0.4s;
+}
+
+.btn-safe {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-safe);
+    padding: 0px 25px;
+    border: 3px solid var(--color-safe);
+    border-radius: 5px;
+}
+
+.btn-safe:hover {
+    background-color: #FAFAFA;
+    color: var(--color-safe);
+    border: 3px solid var(--color-safe);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-safe:active {
+    background-color: rgba(18, 170, 231, 0.25);
+    color: var(--color-safe);
+    border: 3px solid var(--color-safe);
+    transition-duration: 0.4s;
+}
+
+.btn-warning {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-warning);
+    padding: 0px 25px;
+    border: 3px solid var(--color-warning);
+    border-radius: 5px;
+}
+
+.btn-warning:hover {
+    background-color: #FAFAFA;
+    color: var(--color-warning);
+    border: 3px solid var(--color-warning);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-warning:active {
+    background-color: rgba(244, 149, 54, 0.25);
+    color: var(--color-warning);
+    border: 3px solid var(--color-warning);
+    transition-duration: 0.4s;
+}
+
+.btn-danger {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-danger);
+    padding: 0px 25px;
+    border: 3px solid var(--color-danger);
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #FAFAFA;
+    color: var(--color-danger);
+    border: 3px solid var(--color-danger);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-danger:active {
+    background-color: rgba(244, 41, 13, 0.25);
+    color: var(--color-danger);
+    border: 3px solid var(--color-danger);
+    transition-duration: 0.4s;
+}
+
