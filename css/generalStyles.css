@@ -332,3 +332,6 @@ nav {
     transition-duration: 0.4s;
 }
 
+.margin-vertical-50 {
+    margin: 50px 0px;
+}
