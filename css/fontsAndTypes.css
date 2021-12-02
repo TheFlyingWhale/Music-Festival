@@ -15,33 +15,34 @@
 
 /* ---> Font Families */
 .text-primary {
-    font-family: 'JosefinSans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'JosefinSansVariable','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .text-secondary {
     font-family: 'LondrinaSolid' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
 }
 
 /* ---> Font Weights */
 
 .text-light {
-    font-weight: 300;
+    font-variation-settings: 'wght' 300;
 }
 
 .text-normal {
-    font-weight: 400;
+    font-variation-settings: 'wght' 350;
 }
 
 .text-medium {
-    font-weight: 500;
+    font-variation-settings: 'wght' 500;
 }
 
 .text-semiBold {
-    font-weight: 600;
+    font-variation-settings: 'wght' 600;
 }
 
 .text-bold {
-    font-weight: 700;
+    font-variation-settings: 'wght' 650;
 }
 
 /* ---> Font Sizes */
@@ -106,36 +107,7 @@
 }
 
 @font-face {
-    font-family: "JosefinSans";
-    font-weight: 300;
+    font-family: "JosefinSansVariable";
     font-style: normal;
-    src: url("/assets/fonts/JosefinSans-Light.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "JosefinSans";
-    font-weight: 400;
-    font-style: normal;
-    src: url("/assets/fonts/JosefinSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "JosefinSans";
-    font-weight: 500;
-    font-style: normal;
-    src: url("/assets/fonts/JosefinSans-Medium.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "JosefinSans";
-    font-weight: 600;
-    font-style: normal;
-    src: url("/assets/fonts/JosefinSans-SemiBold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "JosefinSans";
-    font-weight: 700;
-    font-style: normal;
-    src: url("/assets/fonts/JosefinSans-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
 }
