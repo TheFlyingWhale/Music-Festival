@@ -171,7 +171,6 @@ nav {
     padding: 0px 25px;
     border: 3px solid #611400;
     border-radius: 5px;
-    transition-duration: 0.4s;
 }
 
 .btn-primary:hover {
