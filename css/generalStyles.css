@@ -260,3 +260,75 @@ nav {
     transition-duration: 0.4s;
 }
 
+.btn-safe {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-safe);
+    padding: 0px 25px;
+    border: 3px solid var(--color-safe);
+    border-radius: 5px;
+}
+
+.btn-safe:hover {
+    background-color: #FAFAFA;
+    color: var(--color-safe);
+    border: 3px solid var(--color-safe);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-safe:active {
+    background-color: rgba(18, 170, 231, 0.25);
+    color: var(--color-safe);
+    border: 3px solid var(--color-safe);
+    transition-duration: 0.4s;
+}
+
+.btn-warning {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-warning);
+    padding: 0px 25px;
+    border: 3px solid var(--color-warning);
+    border-radius: 5px;
+}
+
+.btn-warning:hover {
+    background-color: #FAFAFA;
+    color: var(--color-warning);
+    border: 3px solid var(--color-warning);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-warning:active {
+    background-color: rgba(244, 149, 54, 0.25);
+    color: var(--color-warning);
+    border: 3px solid var(--color-warning);
+    transition-duration: 0.4s;
+}
+
+.btn-danger {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--color-danger);
+    padding: 0px 25px;
+    border: 3px solid var(--color-danger);
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #FAFAFA;
+    color: var(--color-danger);
+    border: 3px solid var(--color-danger);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-danger:active {
+    background-color: rgba(244, 41, 13, 0.25);
+    color: var(--color-danger);
+    border: 3px solid var(--color-danger);
+    transition-duration: 0.4s;
+}
+
