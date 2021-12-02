@@ -18,6 +18,7 @@
 
 button {
     height: 40px;
+    width: fit-content;
     background-color: #611400;
     padding: 0px 25px;
     border: 3px solid #611400;
@@ -36,6 +37,11 @@ button:active {
     background-color: rgba(97, 20, 0, 0.25);
     color: #611400;
     border: 3px solid #611400;
+}
+
+.buttonContainer {
+    display: flex;
+    width: fit-content;
 }
   
 .imageHero {
@@ -61,6 +67,11 @@ button:active {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.imageHero-practical {
+    background-image: url('/assets/figures/header2.jpeg');
+    background-size: cover;
 }
 
 .partners {
@@ -105,6 +116,33 @@ button:active {
     padding: 25px;
 }
 
+.horizontal-img-card {
+    width: 900px;
+    height: 555px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.image-boxLarge {
+    width: 450px;
+    background-position: center;
+}
+
+.image-boxLarge > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.text-boxLarge {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 50px;
+}
+
 .cardContainer__row {
     display: flex;
     flex-direction: row;
@@ -121,7 +159,12 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+}
+
+.textComponent-horizontalCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .textComponent__body {
@@ -231,4 +274,108 @@ button:active {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.imageContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imageContainer__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMediaContainer__platform {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.socialMediaContainer__platform:hover > p {
+    color: #F49536;
+}
+
+.textForm {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputContainer input {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-primary);
+}
+
+.inputRow {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.participants_participant {
+    width: fit-content;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.participantType {
+    border-radius: 5px;
+    border: 1px solid var(--color-primary);
+    padding: 5px 10px;
+}
+
+.participantForm {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.validTicket__Container {
+    padding: 25px;
+    width: fit-content;
+}
+
+.validTicket__row {
+    display: flex;
+    justify-content: center;
+}
+
+.validTicket__infoElement {
+    width: 100%;
+    max-width: 200px;
+}
+
+.validTicket__qrCode {
+    width: 100px;
+    height: 106.25px;
+}
+
+.login__buttonContainer {
+    display: flex;
+    justify-content: center;
 }

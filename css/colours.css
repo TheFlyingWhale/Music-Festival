@@ -1,3 +1,9 @@
+:root{
+    --color-primary: #611400;
+    --color-negative: #FAFAFA;
+    --color-secondary: #B72E0A;
+}
+
 .color-primary {
     color: #611400;
 }
