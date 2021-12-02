@@ -4,6 +4,12 @@
     flex-direction: column;
 }
 
+.CTA-left {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
 .text-hero-center {
     display: flex;
     flex-direction: column;
