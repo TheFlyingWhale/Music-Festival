@@ -382,6 +382,7 @@
     width: 193px;
 }
 
+
 .locationcontainer__locationtitle {
     height: fit-content;
     width: 163px;
@@ -392,21 +393,31 @@
     left: 30px;
 }
 
-.tøyenparken{
-    background-color: #f4290d;
-    border: 3px solid #f4290d;
+.locationbuttocolour{
+    background-color: #B72E0A;
+    border: 3px solid #B72E0A;
 }
-.youngstorget{
-    background-color: #f49536;
-    border: 3px solid #f49536;
+.locationbuttocolour--inactive{
+    background-color: #CDCDCD;
+    border: 3px solid #CDCDCD;
 }
-.bergen{
-    background-color: #12aae7;
-    border: 3px solid #12aae7;
+
+
+.locationcontainer__locationtitle--mobile {
+    height: fit-content;
+    width: 163px;
+    padding: 10px ;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    
 }
-.trondheim{
-    background-color: #18bb25;
-    border: 3px solid #18bb25;
+
+.locationcontainer__locationtitlecontainer--mobile{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
 }
 
 .daycontainer{
@@ -421,8 +432,16 @@
     bottom:0px;
 }
 
+
 .timecontainer{
     width: 163px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff; 
+}
+
+.timecontainer--mobile{
+    width: 205px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #ffffff; 
