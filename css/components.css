@@ -319,6 +319,14 @@
 .socialMediaContainer {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 480px) {
+    .socialMediaContainer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .socialMediaContainer__platform {
