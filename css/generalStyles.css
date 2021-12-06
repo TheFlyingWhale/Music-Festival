@@ -158,6 +158,12 @@ nav {
     gap: 150px;
 }
 
+@media only screen and (max-width: 480px) {
+    .gap-50-mobile {
+        gap: 50px !important; 
+    }
+}
+
 .box {
     display: flex;
     flex-direction: column;
