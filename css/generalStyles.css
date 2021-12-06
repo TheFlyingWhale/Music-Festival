@@ -165,7 +165,8 @@ nav {
     .gap-50-mobile {
         gap: 50px !important; 
     }
-    .gap-100-mobile {
+    
+    .gap-20-mobile {
         gap: 20px;
     }
 }

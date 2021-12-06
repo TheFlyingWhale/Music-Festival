@@ -545,3 +545,13 @@
     display: flex;
     justify-content: center;
 }
+
+.ticketEndOptionContainer {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 480px) {
+    .ticketEndOptionContainer {
+        flex-direction: column;
+    }
+}
