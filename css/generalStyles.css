@@ -15,6 +15,12 @@ main {
     align-items: center;
 }
 
+@media only screen and (max-width: 480px) {
+    main {
+        max-width: 345px;
+    }
+}
+
 main > * {
     width: 100%;
 }
@@ -69,6 +75,13 @@ nav {
     align-items: center;
 
     height: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        height: 60px;
+        padding: 5px 15px;
+    }
 }
 
 
@@ -334,4 +347,24 @@ nav {
 
 .margin-vertical-50 {
     margin: 50px 0px;
+}
+
+.mobile-hide {
+    display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+    .mobile-hide {
+        display: none !important;
+    }
+}
+
+.desktop-hide {
+    display: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .desktop-hide {
+        display: flex !important;
+    }
 }

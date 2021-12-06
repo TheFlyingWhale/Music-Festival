@@ -36,6 +36,12 @@
     padding: 50px 0px;
 }
 
+@media only screen and (max-width: 480px) {
+    .imageHero {
+        height: 231px;
+    }
+}
+
 .imageHero-sombreros {
     background-image: url('/assets/figures/theArtists.png');
     background-position: center;
@@ -68,8 +74,18 @@
 .partners__logos {
     width: 100%;
     
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    justify-items: center;
+    /* justify-content: space-between; */
+}
+
+@media only screen and (max-width: 480px) {
+    .partners__logos {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
 }
 
 .vertical-img-card {
