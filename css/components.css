@@ -495,6 +495,14 @@
     width: fit-content;
 }
 
+@media screen and (max-width: 480px) {
+    .validTicket__Container {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 .validTicket__row {
     display: flex;
     justify-content: center;
@@ -503,6 +511,13 @@
 .validTicket__infoElement {
     width: 100%;
     max-width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    .validTicket__infoElement {
+        flex-direction: column;
+        width: auto;
+    }
 }
 
 .validTicket__qrCode {

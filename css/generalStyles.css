@@ -125,6 +125,7 @@ nav {
     gap: 25px;
 }
 
+
 .gap-50 {
     display: flex;
     gap: 50px;
@@ -141,11 +142,6 @@ nav {
     gap: 100px;
 }
 
-@media screen and (max-width: 480px) {
-    .gap-100 {
-        flex-direction: column;
-    }
-}
 
 .gap-100-v {
     display: flex;
@@ -168,6 +164,9 @@ nav {
 @media only screen and (max-width: 480px) {
     .gap-50-mobile {
         gap: 50px !important; 
+    }
+    .gap-100-mobile {
+        gap: 20px;
     }
 }
 
