@@ -168,6 +168,10 @@ nav {
     align-items: center;
 }
 
+.text-align-center{
+    text-align: center;
+}
+
 .cardBackground {
     background-color: white;
     border-radius: 10px;
