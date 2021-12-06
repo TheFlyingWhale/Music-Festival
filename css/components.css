@@ -173,13 +173,21 @@
 }
 
 .carousel__figureContainer {
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     height: 465px;
 
     border-radius: 10px;
     overflow: hidden;
 
     position: relative;
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel__figureContainer {
+        max-width: 345px;
+        max-height: 212px;
+    }
 }
 
 .carousel__figureContainer__figure {
