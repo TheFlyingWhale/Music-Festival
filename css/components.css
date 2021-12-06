@@ -197,6 +197,12 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 480px) {
+    .textComponent-horizontalCenter {
+        gap: 25px;
+    }
+}
+
 .textComponent__body {
     line-height: 150%;
     max-width: 500px;

@@ -141,11 +141,18 @@ nav {
     gap: 100px;
 }
 
+@media screen and (max-width: 480px) {
+    .gap-100 {
+        flex-direction: column;
+    }
+}
+
 .gap-100-v {
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
+
 
 .gap-150 {
     display: flex;
