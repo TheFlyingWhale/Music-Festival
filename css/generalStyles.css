@@ -198,6 +198,12 @@ nav {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 480px) {
+    .btn-primary {
+        padding: 0 15px;
+    }
+}
+
 .btn-primary:hover {
     background-color: #FAFAFA;
     color: #611400;
@@ -220,6 +226,12 @@ nav {
     padding: 0px 25px;
     border: 3px solid var(--color-secondary);
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-secondary {
+        padding: 0 15px;
+    }
 }
 
 .btn-secondary:hover {
@@ -246,6 +258,12 @@ nav {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 480px) {
+    .btn-muted {
+        padding: 0 15px;
+    }
+}
+
 .btn-muted:hover {
     background-color: #FAFAFA;
     color: var(--color-muted);
@@ -268,6 +286,12 @@ nav {
     padding: 0px 25px;
     border: 3px solid var(--color-success);
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-success {
+        padding: 0 15px;
+    }
 }
 
 .btn-success:hover {
@@ -294,6 +318,12 @@ nav {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 480px) {
+    .btn-safe {
+        padding: 0 15px;
+    }
+}
+
 .btn-safe:hover {
     background-color: #FAFAFA;
     color: var(--color-safe);
@@ -318,6 +348,12 @@ nav {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 480px) {
+    .btn-warning {
+        padding: 0 15px;
+    }
+}
+
 .btn-warning:hover {
     background-color: #FAFAFA;
     color: var(--color-warning);
@@ -340,6 +376,12 @@ nav {
     padding: 0px 25px;
     border: 3px solid var(--color-danger);
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-danger {
+        padding: 0 15px;
+    }
 }
 
 .btn-danger:hover {
