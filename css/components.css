@@ -23,8 +23,16 @@
 }
 
 .buttonContainer {
+    width: 100%;
     display: flex;
     width: fit-content;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px) {
+    .buttonContainer {
+        width: 100%;
+    }
 }
 
 .imageHero-new {
@@ -547,18 +555,20 @@
 }
 
 .participants_participant {
-    width: fit-content;
+    width: 100%;
+    max-width: 600px;
     padding: 25px;
     border-radius: 10px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     gap: 50px;
 }
 
 @media only screen and (max-width: 480px) {
     .participants_participant {
         padding: 25px;
-        flex-direction: row;
+        flex-direction: column;
         align-items: flex-start;
         width: 100%;
     }
@@ -572,9 +582,18 @@
 
 .participantForm {
     display: flex;
-    gap: 10px;
+    gap: 50px;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.participantSection {
+    display: flex;
+    align-content: center;
     flex-direction: column;
+    gap: 10px;
 }
 
 
@@ -620,6 +639,17 @@
 
 .ticketEndOptionContainer {
     flex-direction: row;
+}
+
+.ticketCompleteButtonContainer {
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .ticketCompleteButtonContainer {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 480px) {
