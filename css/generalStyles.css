@@ -181,6 +181,13 @@ nav {
     align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+    .align-center {
+        width: none;
+    }
+}
+
+
 .text-align-center{
     text-align: center;
 }
