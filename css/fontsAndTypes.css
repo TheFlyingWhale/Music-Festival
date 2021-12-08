@@ -58,7 +58,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .text-body {
+    .text-body-mobile {
         font-size: 22.62px;
     }
 }
@@ -74,8 +74,8 @@
 }
 
 @media screen and (max-width: 480px) {
-    .text-subTitle {
-    font-size: 25.45px;
+    .text-subTitle-mobile {
+    font-size: 31.99px;
     }
 }
 
