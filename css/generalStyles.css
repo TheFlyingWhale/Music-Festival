@@ -180,6 +180,10 @@ nav {
     .gap-20-mobile {
         gap: 20px;
     }
+
+    .gap-100-mobile {
+        gap: 100px;
+    }
 }
 
 .box {
