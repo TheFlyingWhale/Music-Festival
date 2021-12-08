@@ -482,6 +482,12 @@
     gap: 25px;
 }
 
+@media screen and (max-width: 480px) {
+    .textForm {
+        width: 100%;
+    }
+}
+
 .inputContainer {
     display: flex;
     flex-direction: column;
@@ -494,6 +500,12 @@
     padding: 10px;
     border-radius: 5px;
     border: 1px solid var(--color-primary);
+}
+
+@media screen and (max-width: 480px) {
+    .inputContainer input {
+        width: 100%;
+    }
 }
 
 .inputRow {
