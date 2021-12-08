@@ -57,6 +57,12 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .text-body {
+        font-size: 22.62px;
+    }
+}
+
 .text-subTitle {
     font-size: 25.45px;
 }
@@ -64,6 +70,12 @@
 @media only screen and (max-width: 769px) {
     .text-subTitle {
         font-size: 22.62px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-subTitle {
+    font-size: 25.45px;
     }
 }
 
