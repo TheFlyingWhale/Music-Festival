@@ -10,8 +10,20 @@
     <link rel="stylesheet" href="/css/generalStyles.css">
     <link rel="stylesheet" href="/css/components.css">
     <link rel="icon" href="/assets/figures/pureLogo.svg" type="image/svg" sizes="16x16">
+    <script defer='1' src="/js/navHandler.js"></script>
 </head>
 <body class="gap-50">
+    <nav id="navMobile" class="nav-mobile color-bg-danger">
+        <div class="nav-mobile__links gap-50">
+            <a href="/html/artists.html" class="text-subTitle text-primary color-negative text-normal">Artister</a>
+            <a href="/html/program.html" class="text-subTitle text-primary color-negative text-normal">Program</a>
+            <a href="/html/practicalInfo.html" class="text-subTitle text-primary color-negative text-normal">Praktisk Info</a>
+            <a href="/html/about.html" class="text-subTitle text-primary color-negative text-normal">Om Oss</a>
+            <a href="/html/ticketStart.html" class="text-subTitle text-primary color-negative text-normal">Billett</a>
+            <a href="/html/voluntaryStart.html" class="text-subTitle text-primary color-negative text-normal">Frivillig</a>
+        </div>
+    </nav>
+
     <header class="">
         <nav class="color-primary-bg">
             <div class="nav-wrapper">
@@ -29,7 +41,7 @@
                     <a href="/html/voluntaryStart.html" class="text-body text-primary color-negative text-normal">Frivillig</a>
                 </div>
     
-                <div class="nav__burger desktop-hide">
+                <div id="navBurger" class="nav__burger desktop-hide">
                     <img src="/assets/figures/burger.svg" alt="">
                 </div>
             </div>

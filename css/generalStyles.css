@@ -13,6 +13,8 @@ main {
     flex-direction: column;
 
     align-items: center;
+
+    position: relative;
 }
 
 @media only screen and (max-width: 480px) {
@@ -69,12 +71,44 @@ nav {
     align-items: center;
     width: 100%;
     height: 40px;
+    z-index: 10;
 }
 
 @media only screen and (max-width: 480px) {
     nav {
         height: 60px;
         padding: 5px 15px;
+    }
+}
+
+.nav-mobile {
+    display: none;
+    position: absolute;
+}
+
+.nav-mobile__links {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.nav-mobile-display {
+    display: flex !important;
+}
+
+
+.nav-mobile__links a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .nav-mobile {
+        display: none;
+        z-index: 3;
+        background-color: var(--color-primary);
+        width: 100%;
+        height: 100%;
     }
 }
 
