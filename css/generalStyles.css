@@ -94,6 +94,17 @@ nav {
     color: #F49536;
 }
 
+.card-Link {
+    text-decoration: none;
+    width: 100%;
+}
+
+.card-Link:hover .vertical-img-card .text-boxSmall .text-secondary, 
+.card-Link:hover .vertical-img-card .text-boxSmall .text-primary {
+    text-decoration: none;
+    color: #F49536;
+}
+
 .footer-textbox > a {
     text-decoration: none;
 }

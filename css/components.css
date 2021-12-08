@@ -97,9 +97,17 @@
     width: 100%;
 }
 
+
+
 .image-boxSmall {
     height: 164px;
     background-position: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .image-boxSmall {
+        height: 237px;
+    }
 }
 
 .image-boxSmall > img {
@@ -416,8 +424,6 @@
 .locationcontainer__locationtitlecontainer--mobile{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-
-
 }
 
 .daycontainer{
