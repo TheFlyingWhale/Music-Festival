@@ -6,6 +6,7 @@
     --color-success: #18BB25;
     --color-danger: #F4290D;
     --color-warning: #F49536;
+    --color-warning-contrast: #BF7326;
     --color-default: #222222;
     --color-negative: #FAFAFA;
     --color-white: #ffffff;
@@ -65,6 +66,14 @@
 
 .color-waring-bg {
     background-color: #F49536;
+}
+
+.color-warning-contrast {
+    color: var(--color-warning-contrast);
+}
+
+.color-waring-bg-contrast {
+    color: var(--color-warning-contrast);
 }
 
 .color-default {
