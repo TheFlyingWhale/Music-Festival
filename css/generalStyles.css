@@ -78,6 +78,10 @@ nav {
     }
 }
 
+.noLinkDecoration {
+    text-decoration: none;
+}
+
 .nav__links {
     height: fit-content;
 }
