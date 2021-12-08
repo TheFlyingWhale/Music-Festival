@@ -574,3 +574,20 @@
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .img__artists {
+        height: 213px;
+        
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .img__artists--rejjie img {
+        object-position: 0 20%;
+    }
+}
+
+.img__artists--anastasia img {
+    object-position: 13%;
+}
