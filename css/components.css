@@ -196,6 +196,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 60%;
+}
+
+@media screen and (max-width: 480px) {
+    .textComponent {
+    width: 95%;
+    }
 }
 
 .textComponent-horizontalCenter {
