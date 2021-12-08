@@ -26,6 +26,51 @@
     display: flex;
     width: fit-content;
 }
+
+.imageHero-new {
+    display: flex;
+    position: relative;
+    height: 455px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+    .imageHero-new {
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .imageHero-new {
+        height: 231px;
+    }
+}
+
+
+
+.imageHero__image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.imageHero__contentsContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
   
 .imageHero {
     display: flex;
@@ -40,6 +85,20 @@
     .imageHero {
         height: 231px;
     }
+}
+
+.imageHero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image:url('https://images.unsplash.com/photo-1538330627166-33d1908c210d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    height: 455px;
+    padding: 50px 0px;
+}
+
+.imageHero__contents {
+    display: flex;
+    flex-direction: column;
 }
 
 .imageHero-sombreros {
