@@ -1,12 +1,11 @@
 :root{
     --color-primary: #611400;
     --color-secondary: #B72E0A;
-    --color-muted: #CDCDCD;
+    --color-muted: #737373;
     --color-safe: #12AAE7;
     --color-success: #18BB25;
     --color-danger: #F4290D;
-    --color-warning: #F49536;
-    --color-warning-contrast: #BF7326;
+    --color-warning: #DF750C;
     --color-default: #222222;
     --color-negative: #FAFAFA;
     --color-white: #ffffff;
@@ -29,11 +28,11 @@
 }
 
 .color-muted {
-    color: #CDCDCD;
+    color: var(--color-muted);
 }
 
 .color-muted-bg {
-    background-color: #CDCDCD;
+    background-color: var(--color-muted);
 }
 
 .color-safe {
@@ -61,11 +60,11 @@
 }
 
 .color-warning {
-    color: #F49536;
+    color: var(--color-warning);
 }
 
 .color-waring-bg {
-    background-color: #F49536;
+    background-color: var(--color-warning);
 }
 
 .color-warning-contrast {
